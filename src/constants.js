@@ -5,7 +5,9 @@ export const techStack = [
   { name: "Python", link: "https://www.python.org/static/img/python-logo-large.c36dccadd999.png?1576869008" },
 
   { name: "React Native", link: "https://pagepro.co/blog/wp-content/uploads/2020/03/react-native-logo-884x1024.png" },
+  { name: "Angular JS", link: "https://w7.pngwing.com/pngs/1014/365/png-transparent-angular-js-full-logo-tech-companies-thumbnail.png" },
   { name: "NodeJS", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" },
+
   { name: "Postman", link: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" },
   { name: "HTML", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
   { name: "CSS", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" },
@@ -51,7 +53,7 @@ export const serviceData = [
 
   {
     name: 'AI Integration',
-    desc: `I offer AI integration services that bring the power of artificial intelligence to your applications. By leveraging machine learning algorithms, natural language processing, and data analytics, I develop intelligent solutions that enhance automation, personalization, and decision-making processes. Whether you're looking to implement chatbots, recommendation systems, or predictive analytics, I ensure seamless integration of AI technologies that drive innovation, improve user experiences, and provide actionable insights for your business.`,
+    desc: `I offer AI integration services that bring the power of artificial intelligence to your applications. By leveraging machine learning algorithms, natural language processing, and data analytics, I develop intelligent solutions that enhance automation, personalization, and decision-making processes. Whether you're looking to implement chatbots, recommendation systems, or predictive analytics, I ensure seamless integration of AI technologies.`,
     img: "https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-backend-no-code-flaticons-flat-flat-icons.png"
   },
 
