@@ -9,6 +9,9 @@ import project4 from "../assets/pr/portfolio-project-4.png";
 import project5 from "../assets/pr/portfolio-project-5.png";
 import project6 from "../assets/pr/portfolio-project-6.png";
 import project7 from "../assets/pr/portfolio-project-7.png";
+import project8 from "../assets/pr/portfolio-project-8.png";
+import project9 from "../assets/pr/portfolio-project-9.png";
+import project10 from "../assets/pr/portfolio-project-10.png";
 
 const Projects = () => {
   const theme = useContext(ThemeContext);
@@ -34,7 +37,7 @@ const Projects = () => {
               visible: { opacity: 1 },
               hidden: { opacity: 0 },
             }}
-            class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
+            class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
           >
             <a href="hello">
               <img
@@ -44,7 +47,7 @@ const Projects = () => {
               />
             </a>
             <div class="p-5">
-              <a href="helo">
+              <a href="https://indyguide.com/" target="_blank">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   INDY GUIDE Global Tourist Platform
                 </h5>
@@ -81,7 +84,7 @@ const Projects = () => {
               visible: { opacity: 1 },
               hidden: { opacity: 0 },
             }}
-            class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
+            class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
           >
             <a href="hello">
               <img
@@ -119,7 +122,6 @@ const Projects = () => {
               </a>
             </div>
           </motion.div>
-
           <motion.div
             initial={"hidden"}
             whileInView={"visible"}
@@ -127,7 +129,100 @@ const Projects = () => {
               visible: { opacity: 1 },
               hidden: { opacity: 0 },
             }}
-            class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
+            class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
+          >
+            <a href="https://paysay.co.uk/" target="_blank">
+              <img
+                class="rounded-t-lg w-full project-img"
+                src={project9}
+                alt=""
+              />
+            </a>
+            <div class="p-5">
+              <a href="https://ajksupremecourt.gok.pk/" target="_blank">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                PaySay
+                </h5>
+              </a>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              Online Money transfer website, The secure, easiest & fastest way to send money home
+              </p>
+              <a
+                target="_blank"
+                href="https://ajksupremecourt.gok.pk/"
+                class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
+              >
+                Read more
+                <svg
+                  class="ml-2 -mr-1 w-4 h-4"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </motion.div>
+          <motion.div
+            initial={"hidden"}
+            whileInView={"visible"}
+            variants={{
+              visible: { opacity: 1 },
+              hidden: { opacity: 0 },
+            }}
+            class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
+          >
+            <a href="https://imeicheck.com/" target="_blank">
+              <img
+                class="rounded-t-lg w-full project-img"
+                src={project10}
+                alt=""
+              />
+            </a>
+            <div class="p-5">
+              <a href="helo">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                IMEI Check Services
+                </h5>
+              </a>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              ImeiCheck.com offers a variety of IMEI Check Services that gives you all the information about your device, fast and accessible!
+              </p>
+              <a
+                target="_blank"
+                href="https://ajksupremecourt.gok.pk/"
+                class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
+              >
+                Read more
+                <svg
+                  class="ml-2 -mr-1 w-4 h-4"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </motion.div>
+        
+          <motion.div
+            initial={"hidden"}
+            whileInView={"visible"}
+            variants={{
+              visible: { opacity: 1 },
+              hidden: { opacity: 0 },
+            }}
+            class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
           >
             <a href="hello">
               <img
@@ -173,7 +268,7 @@ const Projects = () => {
               visible: { opacity: 1 },
               hidden: { opacity: 0 },
             }}
-            class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
+            class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
           >
             <a href="hello">
               <img
@@ -220,7 +315,7 @@ const Projects = () => {
               visible: { opacity: 1 },
               hidden: { opacity: 0 },
             }}
-            class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
+            class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
           >
             <a href="hello">
               <img
@@ -267,7 +362,7 @@ const Projects = () => {
               visible: { opacity: 1 },
               hidden: { opacity: 0 },
             }}
-            class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
+            class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
           >
             <a href="hello">
               <img
@@ -313,7 +408,7 @@ const Projects = () => {
               visible: { opacity: 1 },
               hidden: { opacity: 0 },
             }}
-            class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
+            class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
           >
             <a href="hello">
               <img
@@ -330,6 +425,52 @@ const Projects = () => {
               </a>
               <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
               A Complete CMS      </p>
+              <a
+                target="_blank"
+                href="https://ajksupremecourt.gok.pk/"
+                class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
+              >
+                Read more
+                <svg
+                  class="ml-2 -mr-1 w-4 h-4"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </motion.div>
+                      
+          <motion.div
+            initial={"hidden"}
+            whileInView={"visible"}
+            variants={{
+              visible: { opacity: 1 },
+              hidden: { opacity: 0 },
+            }}
+            class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
+          >
+            <a href="hello">
+              <img
+                class="rounded-t-lg w-full project-img"
+                src={project8}
+                alt=""
+              />
+            </a>
+            <div class="p-5">
+              <a href="helo">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                Business Website
+                </h5>
+              </a>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              Business Website Of Zenara Comapny      </p>
               <a
                 target="_blank"
                 href="https://ajksupremecourt.gok.pk/"
